@@ -24,3 +24,13 @@ git push -u origin n8n_knowledge
 git checkout -b workflow_distillati
 git push -u origin workflow_distillati
 ```
+
+## Esecuzione dei test
+
+Questo repository utilizza Node.js per gestire semplici script di test. Per eseguirli:
+
+```bash
+npm test
+```
+
+Il comando verifica la presenza di `readme.md` e può essere esteso in futuro per coprire altre funzionalità.
